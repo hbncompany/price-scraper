@@ -2,6 +2,7 @@ import json
 import mysql.connector
 
 from scraper_asaxiy import scrape_asaxiy
+from scraper_texnomart import scrape_texnomart
 
 db = mysql.connector.connect(
 host="hbncompany.mysql.pythonanywhere-services.com",
@@ -46,13 +47,21 @@ for group in groups:
                 f"SEARCH: {keyword}"
             )
     
-            products = scrape_asaxiy(
+            # products = scrape_asaxiy(
+            #     keyword,
+            #     group_id
+            # )
+            # all_products.extend(
+            #     products
+            # )
+            
+            products = scrape_texnomart(
                 keyword,
                 group_id
             )
-    
+            
             all_products.extend(
-                products
+                data
             )
     
         except Exception as e:
