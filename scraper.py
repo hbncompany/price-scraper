@@ -10,8 +10,9 @@ group_name = sys.argv[2]
 
 search_text = sys.argv[3]
 
-# Guruh + foydalanuvchi matni
-query = f"{search_text} {group_name}"
+query = f"{group_name} {search_text}"
+
+print("QUERY:", query)
 
 all_products = []
 
@@ -50,6 +51,22 @@ except Exception as e:
         "TEXNOMART ERROR:",
         e
     )
+
+unique = {}
+
+for p in all_products:
+
+    key = (
+        p["store_name"]
+        + "|"
+        + p["product_name"]
+    )
+
+    unique[key] = p
+
+all_products = list(
+    unique.values()
+)
 
 with open(
     "products.json",
