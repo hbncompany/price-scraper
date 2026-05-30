@@ -74,6 +74,21 @@ def scrape_texnomart(
             len(products)
         )
 
+        print(
+            "product-item-wrapper count:",
+            response.text.count("product-item-wrapper")
+        )
+        
+        print(
+            "product-name count:",
+            response.text.count("product-name")
+        )
+        
+        print(
+            "products-box count:",
+            response.text.count("products-box")
+        )
+
         for product in products:
 
             try:
