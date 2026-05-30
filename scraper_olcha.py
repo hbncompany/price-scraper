@@ -11,7 +11,7 @@ def scrape_olcha(search_text, group_id):
     
         url = (
             f"https://olcha.uz/oz/search"
-            f"?q={quote(search_text)}"
+            f"?q={quote(search_text)}&page=2"
         )
     
         headers = {
