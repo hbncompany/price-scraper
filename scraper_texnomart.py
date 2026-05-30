@@ -62,6 +62,25 @@ def scrape_texnomart(
         
         data = response.json()
 
+        print("DATA TYPE:", type(data["data"]))
+        
+        if isinstance(data["data"], list):
+        
+            print("ITEMS:", len(data["data"]))
+        
+            if len(data["data"]) > 0:
+        
+                print(
+                    data["data"][0]
+                )
+
+        elif isinstance(data["data"], dict):
+        
+            print(
+                data["data"].keys()
+            )
+        
+
         print(data.keys())
 
         return results
