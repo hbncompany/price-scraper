@@ -34,22 +34,22 @@ SEARCHES = [
 
 for item in SEARCHES:
 
-keyword = item["keyword"]
-
-group_id = item["group_id"]
-
-try:
-
-    data = scrape_olcha(
-        keyword,
-        group_id
-    )
-
-    all_products.extend(data)
-
-except Exception as e:
-
-    print(e)
+    keyword = item["keyword"]
+    
+    group_id = item["group_id"]
+    
+    try:
+    
+        data = scrape_olcha(
+            keyword,
+            group_id
+        )
+    
+        all_products.extend(data)
+    
+    except Exception as e:
+    
+        print(e)
 
 with open(
 "products.json",
