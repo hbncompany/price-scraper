@@ -15,8 +15,8 @@ def scrape_texnomart(
     try:
 
         url = (
-            f"https://texnomart.uz/search"
-            f"?q={quote(search_text)}"
+            "https://texnomart.uz/product/search/"
+            f"{quote(search_text)}/"
         )
         print("URL:", url)
         headers = {
