@@ -40,4 +40,3 @@ steps:
       git diff --cached --quiet || git commit -m "Update products"
 
       git push
-```
