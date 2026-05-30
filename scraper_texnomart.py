@@ -43,6 +43,8 @@ def scrape_texnomart(
         print("STATUS:", response.status_code)
         
         data = response.json()
+        products = data["data"]["products"]
+        print(products[0])
 
         print(
             json.dumps(
