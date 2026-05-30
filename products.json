@@ -190,5 +190,165 @@
     "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/6279febd69f6d.png.webp",
     "product_url": "https://asaxiy.uz/ru/product/kondicioner-artel-shahrisabz-24-inverter-ekonomit-30-elektroenergii",
     "price": 8019000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Artel 12HS S SIR1W12BE Konditsioneri",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1008/100856/205120/7651f23e-147a-429e-9f43-7c4d035b13d9.webp",
+    "product_url": "https://texnomart.uz/product/100856",
+    "price": 4699000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "LG D12TT Konditsioneri",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3558/355824/205131/19472383-17b7-4bc1-a2c0-059a0c9747dd.webp",
+    "product_url": "https://texnomart.uz/product/355824",
+    "price": 6499000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Samsung Galaxy S25+ 12/256GB Navy",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3581/358179/208175/2f48ad0e-05b0-4db2-b7c7-003368641ffa.webp",
+    "product_url": "https://texnomart.uz/product/358179",
+    "price": 10244000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Samsung Galaxy S25+ 12/256GB Silver Shadow",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3581/358180/208169/9abefb07-3595-4e21-9720-12ab439f0c2c.webp",
+    "product_url": "https://texnomart.uz/product/358180",
+    "price": 10244000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Samsung Galaxy S25 Ultra 12/512GB Titanium Gray",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3581/358175/208210/baebb227-d7b2-4a8c-998f-f911d88abd4a.webp",
+    "product_url": "https://texnomart.uz/product/358175",
+    "price": 14513000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "ARG CSH 12OB Konditsioneri",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3557/355738/188991/796d9647-78b7-433a-953b-027968632453.webp",
+    "product_url": "https://texnomart.uz/product/355738",
+    "price": 3299000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Midea XTG-12 Konditsioneri",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3586/358659/210875/c9bfed90-e956-4b7f-bb90-beddbaff1f18.webp",
+    "product_url": "https://texnomart.uz/product/358659",
+    "price": 9999000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Keramik himoya oynasi Iphone 12 MINI ",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/884/88469/205990/629e0c98-ae2e-4e8e-adf2-62263054577b.webp",
+    "product_url": "https://texnomart.uz/product/88469",
+    "price": 4000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Iphone 12 PRO keramik himoya oynasi",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/884/88470/205991/18ca3d51-9c37-45b3-bdaf-22245c9dbcec.webp",
+    "product_url": "https://texnomart.uz/product/88470",
+    "price": 4000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Megogo TV va Kino 12 oylik obuna",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1055/105523/206618/9cb6a687-15d5-438a-a911-312743009d2e.webp",
+    "product_url": "https://texnomart.uz/product/105523",
+    "price": 409000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Artel A32KH5000 Televizori",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1025/102552/180235/8c92c805-bb0c-481e-978f-418972a2f0da.jpg",
+    "product_url": "https://texnomart.uz/product/102552",
+    "price": 1750000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Artel A43KF5000 Televizori",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1043/104307/204944/57678351-5d11-4496-9a3c-8516fbacac7a.webp",
+    "product_url": "https://texnomart.uz/product/104307",
+    "price": 3178000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Allplay Tv va Kino 12 oylik obuna (FULL)",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1053/105373/206613/3287dd33-1c86-4ee0-88f6-722cf97396ee.webp",
+    "product_url": "https://texnomart.uz/product/105373",
+    "price": 294000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "LG B12TS Konditsioneri",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/805/80569/205129/200ea42a-8f7b-451a-ae4f-a9ed002b4388.webp",
+    "product_url": "https://texnomart.uz/product/80569",
+    "price": 11490000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Go`sht maydalagich Artel MG295",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/952/95210/204755/119a78e8-2b27-488a-88cb-b04b2ba2afc8.webp",
+    "product_url": "https://texnomart.uz/product/95210",
+    "price": 1269000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Go`sht maydalagich Artel MG1083",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1046/104662/192612/c727156b-e462-4653-a162-9f50f4e69d59.webp",
+    "product_url": "https://texnomart.uz/product/104662",
+    "price": 896000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Blender Artel BL201",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/809/80995/203968/53ed6307-8a15-4887-bbfc-a1f2946e864e.webp",
+    "product_url": "https://texnomart.uz/product/80995",
+    "price": 607000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Chiroq Lovely Stream  12",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1011/101105/206473/19584459-94bb-40de-ac64-d86f4fb79c2b.webp",
+    "product_url": "https://texnomart.uz/product/101105",
+    "price": 203000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Artel HD345RND Eco Oq Muzlatgichi",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1054/105431/205170/ddc89f72-5246-4d50-ace2-765771ff9a60.webp",
+    "product_url": "https://texnomart.uz/product/105431",
+    "price": 5316000
+  },
+  {
+    "group_id": 2,
+    "store_name": "Texnomart",
+    "product_name": "Pech Artel Classico i6701 Inox",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/955/95559/206382/8cf9dfdd-24cf-4727-9515-b8efd95b385d.webp",
+    "product_url": "https://texnomart.uz/product/95559",
+    "price": 2168900
   }
 ]
