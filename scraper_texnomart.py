@@ -58,6 +58,13 @@ def scrape_texnomart(
             "html.parser"
         )
 
+        print(
+            response.text[
+                response.text.find("products-box"):
+                response.text.find("products-box") + 3000
+            ]
+        )
+
         products = soup.select(
             ".product-card"
         )
