@@ -19,18 +19,19 @@ def scrape_olcha(search_text, group_id):
             )
     
             page = browser.new_page()
-    
+
             page.goto(
                 url,
-                wait_until="networkidle",
-                timeout=60000
+                wait_until="domcontentloaded",
+                timeout=120000
             )
-    
+            
+            page.wait_for_timeout(10000)
+            
             html = page.content()
-    
-            print("URL:", url)
+            
             print("HTML LENGTH:", len(html))
-            print(html[:1000])
+            print(html[:2000])
     
             browser.close()
     
