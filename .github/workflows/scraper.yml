@@ -21,3 +21,5 @@ jobs:
       - name: Run scraper
         run: python scraper.py
         
+      - name: Install Playwright browsers
+        run: playwright install chromium
