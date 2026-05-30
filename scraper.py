@@ -1,74 +1,76 @@
 import json
+import mysql.connector
 
 from scraper_asaxiy import scrape_asaxiy
 
+db = mysql.connector.connect(
+host="MYSQL_HOST",
+user="MYSQL_USER",
+password="MYSQL_PASSWORD",
+database="MYSQL_DATABASE"
+)
+
+cursor = db.cursor(dictionary=True)
+
+cursor.execute("""
+SELECT
+id,
+subgroup_name,
+search_keywords
+FROM product_groups
+WHERE is_active=1
+""")
+
+groups = cursor.fetchall()
+
 all_products = []
 
-SEARCHES = [
+for group in groups:
+group_id = group["id"]
 
-    {
-        "group_id": 1,
-        "keyword": "konditsioner"
-    },
-
-    {
-        "group_id": 2,
-        "keyword": "artel"
-    },
-
-    {
-        "group_id": 3,
-        "keyword": "muzlatgich"
-    },
-
-    {
-        "group_id": 4,
-        "keyword": "smartfon"
-    }
-
+keywords = [
+    x.strip()
+    for x in group["search_keywords"].split(",")
+    if x.strip()
 ]
 
-for item in SEARCHES:
+print(
+    f"GROUP: {group['subgroup_name']}"
+)
 
-    keyword = item["keyword"]
-
-    group_id = item["group_id"]
-
-    print("=" * 50)
-    print("SEARCH:", keyword)
+for keyword in keywords:
 
     try:
 
-        data = scrape_asaxiy(
+        print(
+            f"SEARCH: {keyword}"
+        )
+
+        products = scrape_asaxiy(
             keyword,
             group_id
         )
 
-        print(
-            f"FOUND: {len(data)}"
+        all_products.extend(
+            products
         )
-
-        all_products.extend(data)
 
     except Exception as e:
 
-        print(
-            f"ERROR: {e}"
-        )
+        print(e)
 
 with open(
-    "products.json",
-    "w",
-    encoding="utf-8"
+"products.json",
+"w",
+encoding="utf-8"
 ) as f:
-
-    json.dump(
-        all_products,
-        f,
-        ensure_ascii=False,
-        indent=2
-    )
+json.dump(
+    all_products,
+    f,
+    ensure_ascii=False,
+    indent=2
+)
 
 print(
-    f"Saved {len(all_products)} products"
+f"Saved {len(all_products)} products"
 )
