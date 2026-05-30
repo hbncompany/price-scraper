@@ -110,5 +110,7 @@ group_id
         except:
     
             pass
-    
-    return results
+    print("URL:", url)
+    print("STATUS:", response.status_code)
+    print("HTML LENGTH:", len(response.text))
+return results
