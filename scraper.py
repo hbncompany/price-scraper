@@ -1,65 +1,24 @@
-import json
+import requests
 
-from scraper_olcha import scrape_olcha
+url = "https://asaxiy.uz/product?key=konditsioner"
 
-# Hozircha faqat Olcha ishlatsin
-# from scraper_asaxiy import scrape_asaxiy
-# from scraper_texnomart import scrape_texnomart
-
-all_products = []
-
-SEARCHES = [
-    {
-        "group_id": 1,
-        "keyword": "konditsioner"
-    },
-    {
-        "group_id": 2,
-        "keyword": "artel"
-    },
-    {
-        "group_id": 3,
-        "keyword": "muzlatgich"
-    },
-    {
-        "group_id": 4,
-        "keyword": "smartfon"
-    }
-]
-
-for item in SEARCHES:
-
-    keyword = item["keyword"]
-    group_id = item["group_id"]
-
-    try:
-
-        data = scrape_olcha(
-            keyword,
-            group_id
-        )
-
-        all_products.extend(data)
-
-    except Exception as e:
-
-        print(
-            f"Error for {keyword}: {e}"
-        )
-
-with open(
-    "products.json",
-    "w",
-    encoding="utf-8"
-) as f:
-
-    json.dump(
-        all_products,
-        f,
-        ensure_ascii=False,
-        indent=2
+headers = {
+    "User-Agent": (
+        "Mozilla/5.0 "
+        "(Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 "
+        "(KHTML, like Gecko) "
+        "Chrome/136.0.0.0 Safari/537.36"
     )
+}
 
-print(
-    f"Saved {len(all_products)} products"
+r = requests.get(
+    url,
+    headers=headers,
+    timeout=30
 )
+
+print("STATUS:", r.status_code)
+print("SERVER:", r.headers.get("server"))
+print("HTML LENGTH:", len(r.text))
+print(r.text[:1000])
