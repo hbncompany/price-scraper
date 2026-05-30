@@ -18,7 +18,7 @@ def scrape_texnomart(
             f"https://texnomart.uz/search"
             f"?q={quote(search_text)}"
         )
-
+        print("URL:", url)
         headers = {
 
             "User-Agent": (
