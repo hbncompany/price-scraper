@@ -5,7 +5,6 @@ search_text,
 group_id
 ):
 
-```
 results = []
 
 try:
@@ -117,4 +116,3 @@ except Exception as e:
     )
 
     return []
-```
