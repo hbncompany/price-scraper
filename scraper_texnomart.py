@@ -60,11 +60,11 @@ def scrape_texnomart(
                 data["data"].keys()
             )
         
-                data = response.json()
-        
-                print(data.keys())
-        
-                return results
+        data = response.json()
+
+        print(data.keys())
+
+        return results
 
     except Exception as e:
 
