@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 import re
 
 from bs4 import BeautifulSoup
@@ -6,7 +6,6 @@ from urllib.parse import quote
 
 def scrape_olcha(search_text, group_id):
     results = []
-
     
     try:
     
@@ -22,10 +21,25 @@ def scrape_olcha(search_text, group_id):
                 "AppleWebKit/537.36 "
                 "(KHTML, like Gecko) "
                 "Chrome/124.0.0.0 Safari/537.36"
-            )
+            ),
+            "Accept": (
+                "text/html,application/xhtml+xml,"
+                "application/xml;q=0.9,image/avif,"
+                "image/webp,*/*;q=0.8"
+            ),
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive"
         }
     
-        response = requests.get(
+        scraper = cloudscraper.create_scraper(
+            browser={
+                "browser": "chrome",
+                "platform": "windows",
+                "mobile": False
+            }
+        )
+    
+        response = scraper.get(
             url,
             headers=headers,
             timeout=30
