@@ -1,89 +1,120 @@
 import requests
-import json
 
 def scrape_texnomart(
-    search_text,
-    group_id
+search_text,
+group_id
 ):
 
-    
-    results = []
+```
+results = []
 
-    try:
+try:
 
-        url = (
-            "https://gw.texnomart.uz/"
-            "api/common/v1/search/result"
+    url = (
+        "https://gw.texnomart.uz/"
+        "api/common/v1/search/result"
+    )
+
+    params = {
+        "q": search_text,
+        "page": 1,
+        "limit": 20
+    }
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 "
+            "(Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 "
+            "(KHTML, like Gecko) "
+            "Chrome/136.0.0.0 Safari/537.36"
         )
+    }
 
-        params = {
-            "q": search_text,
-            "page": 1,
-            "limit": 20
-        }
+    response = requests.get(
+        url,
+        params=params,
+        headers=headers,
+        timeout=30
+    )
 
-        headers = {
-            "User-Agent": (
-                "Mozilla/5.0 "
-                "(Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 "
-                "(KHTML, like Gecko) "
-                "Chrome/136.0.0.0 Safari/537.36"
+    data = response.json()
+
+    if not data.get("success"):
+        return []
+
+    products = (
+        data["data"]
+        .get("products", [])
+    )
+
+    print(
+        "TEXNOMART PRODUCTS:",
+        len(products)
+    )
+
+    for p in products:
+
+        try:
+
+            product_url = (
+                "https://texnomart.uz/"
+                f"product/{p['id']}"
             )
-        }
 
-        response = requests.get(
-            url,
-            params=params,
-            headers=headers,
-            timeout=30
-        )
+            results.append({
 
-        print("URL:", response.url)
-        print("STATUS:", response.status_code)
-        
-        data = response.json()
-        products = data["data"]["products"]
-        print(products[0])
+                "group_id":
+                group_id,
 
-        print(
-            json.dumps(
-                data,
-                ensure_ascii=False,
-                indent=2
-            )[:5000]
-        )
-        
-        print("SUCCESS:", data["success"])
+                "store_name":
+                "Texnomart",
 
-        print("DATA TYPE:", type(data["data"]))
-        
-        if isinstance(data["data"], list):
-        
-            print("ITEMS:", len(data["data"]))
-        
-            if len(data["data"]) > 0:
-        
-                print(
-                    data["data"][0]
+                "product_name":
+                p.get(
+                    "name",
+                    ""
+                ),
+
+                "image_url":
+                p.get(
+                    "image",
+                    ""
+                ),
+
+                "product_url":
+                product_url,
+
+                "price":
+                int(
+                    p.get(
+                        "sale_price",
+                        0
+                    )
                 )
 
-        elif isinstance(data["data"], dict):
-        
+            })
+
+        except Exception as e:
+
             print(
-                data["data"].keys()
+                "PRODUCT ERROR:",
+                e
             )
-        
 
-        print(data.keys())
+    print(
+        "FOUND PRODUCTS:",
+        len(results)
+    )
 
-        return results
+    return results
 
-    except Exception as e:
+except Exception as e:
 
-        print(
-            "TEXNOMART ERROR:",
-            e
-        )
+    print(
+        "TEXNOMART ERROR:",
+        e
+    )
 
-        return []
+    return []
+```
