@@ -41,9 +41,9 @@ def scrape_texnomart(
 
         print("URL:", response.url)
         print("STATUS:", response.status_code)
-        print("SUCCESS:", data["success"])
         
         data = response.json()
+        print("SUCCESS:", data["success"])
 
         print("DATA TYPE:", type(data["data"]))
         
