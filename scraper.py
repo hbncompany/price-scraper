@@ -1,14 +1,12 @@
 import requests
+from bs4 import BeautifulSoup
 
 url = "https://asaxiy.uz/product?key=konditsioner"
 
 headers = {
     "User-Agent": (
         "Mozilla/5.0 "
-        "(Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 "
-        "(KHTML, like Gecko) "
-        "Chrome/136.0.0.0 Safari/537.36"
+        "(Windows NT 10.0; Win64; x64)"
     )
 }
 
@@ -18,7 +16,23 @@ r = requests.get(
     timeout=30
 )
 
-print("STATUS:", r.status_code)
-print("SERVER:", r.headers.get("server"))
-print("HTML LENGTH:", len(r.text))
-print(r.text[:1000])
+soup = BeautifulSoup(
+    r.text,
+    "html.parser"
+)
+
+print(
+    soup.title.text
+)
+
+cards = soup.find_all("div")
+
+print(
+    "DIV COUNT:",
+    len(cards)
+)
+
+for div in cards[:30]:
+    print(
+        div.get("class")
+    )
