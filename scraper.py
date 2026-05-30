@@ -26,6 +26,7 @@ groups = cursor.fetchall()
 all_products = []
 
 for group in groups:
+
 group_id = group["id"]
 
 keywords = [
@@ -64,6 +65,7 @@ with open(
 "w",
 encoding="utf-8"
 ) as f:
+
 json.dump(
     all_products,
     f,
