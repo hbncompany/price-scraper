@@ -4,10 +4,10 @@ import mysql.connector
 from scraper_asaxiy import scrape_asaxiy
 
 db = mysql.connector.connect(
-host="MYSQL_HOST",
-user="MYSQL_USER",
-password="MYSQL_PASSWORD",
-database="MYSQL_DATABASE"
+host="hbncompany.mysql.pythonanywhere-services.com",
+user="hbncompany",
+password="Sersarson7",
+database="hbncompany$default"
 )
 
 cursor = db.cursor(dictionary=True)
