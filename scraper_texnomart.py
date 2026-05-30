@@ -40,12 +40,31 @@ def scrape_texnomart(
 
         print("URL:", response.url)
         print("STATUS:", response.status_code)
+        print("SUCCESS:", data["success"])
 
-        data = response.json()
+        print("DATA TYPE:", type(data["data"]))
+        
+        if isinstance(data["data"], list):
+        
+            print("ITEMS:", len(data["data"]))
+        
+            if len(data["data"]) > 0:
+        
+                print(
+                    data["data"][0]
+                )
 
-        print(data.keys())
-
-        return results
+        elif isinstance(data["data"], dict):
+        
+            print(
+                data["data"].keys()
+            )
+        
+                data = response.json()
+        
+                print(data.keys())
+        
+                return results
 
     except Exception as e:
 
