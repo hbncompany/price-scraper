@@ -6,6 +6,7 @@ def scrape_texnomart(
     group_id
 ):
 
+    
     results = []
 
     try:
