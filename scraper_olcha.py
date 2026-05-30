@@ -2,115 +2,140 @@ import requests
 import re
 
 from bs4 import BeautifulSoup
-
 from urllib.parse import quote
 
-def scrape_olcha(
-search_text,
-group_id
-):
-
+def scrape_olcha(search_text, group_id):
     results = []
     
-    url = (
-        f"https://olcha.uz/oz/search"
-        f"?q={quote(search_text)}"
-    )
+    try:
     
-    headers = {
+        url = (
+            f"https://olcha.uz/oz/search"
+            f"?q={quote(search_text)}"
+        )
     
-        "User-Agent":
-        "Mozilla/5.0"
-    
-    }
-    
-    response = requests.get(
-        url,
-        headers=headers,
-        timeout=30
-    )
-    
-    soup = BeautifulSoup(
-        response.text,
-        "html.parser"
-    )
-    
-    products = soup.select(
-        "div.product-card"
-    )
-    
-    for product in products:
-    
-        try:
-    
-            name_el = product.select_one(
-                ".product-card__brand-name"
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 "
+                "(Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 "
+                "(KHTML, like Gecko) "
+                "Chrome/124.0.0.0 Safari/537.36"
             )
+        }
     
-            price_el = product.select_one(
-                ".price__main"
-            )
+        response = requests.get(
+            url,
+            headers=headers,
+            timeout=30
+        )
     
-            link_el = product.select_one(
-                "a.product-card__link"
-            )
+        print("=" * 50)
+        print("URL:", url)
+        print("STATUS:", response.status_code)
+        print("HTML LENGTH:", len(response.text))
+        print("FIRST 1000 CHARS:")
+        print(response.text[:1000])
+        print("=" * 50)
     
-            img_el = product.select_one(
-                ".product-card__image img[src]"
-            )
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser"
+        )
     
-            if not (
-                name_el and
-                price_el and
-                link_el
-            ):
-                continue
+        products = soup.select(
+            "div.product-card"
+        )
     
-            name = name_el.get_text(
-                strip=True
-            )
+        print(
+            "PRODUCT COUNT:",
+            len(products)
+        )
     
-            price = int(
+        for product in products:
     
-                re.sub(
+            try:
+    
+                name_el = product.select_one(
+                    ".product-card__brand-name"
+                )
+    
+                price_el = product.select_one(
+                    ".price__main"
+                )
+    
+                link_el = product.select_one(
+                    "a.product-card__link"
+                )
+    
+                img_el = product.select_one(
+                    ".product-card__image img[src]"
+                )
+    
+                if not (
+                    name_el and
+                    price_el and
+                    link_el
+                ):
+                    continue
+    
+                name = name_el.get_text(
+                    strip=True
+                )
+    
+                price_text = re.sub(
                     r"\D",
                     "",
-                    price_el.text
+                    price_el.get_text()
                 )
     
-            )
+                if not price_text:
+                    continue
     
-            image_url = ""
+                price = int(price_text)
     
-            if img_el:
+                image_url = ""
     
-                image_url = img_el.get(
-                    "src",
-                    ""
+                if img_el:
+                    image_url = img_el.get(
+                        "src",
+                        ""
+                    )
+    
+                results.append({
+    
+                    "group_id": group_id,
+    
+                    "store_name": "Olcha",
+    
+                    "product_name": name,
+    
+                    "image_url": image_url,
+    
+                    "product_url":
+                        "https://olcha.uz"
+                        + link_el["href"],
+    
+                    "price": price
+    
+                })
+    
+            except Exception as e:
+    
+                print(
+                    f"PRODUCT ERROR: {e}"
                 )
     
-            results.append({
+        print(
+            f"FOUND PRODUCTS: {len(results)}"
+        )
     
-                "group_id": group_id,
+        return results
     
-                "store_name": "Olcha",
+    except Exception as e:
     
-                "product_name": name,
+        print(
+            f"OLCHA SCRAPER ERROR: {e}"
+        )
     
-                "image_url": image_url,
-    
-                "product_url":
-                "https://olcha.uz"
-                + link_el["href"],
-    
-                "price": price
-    
-            })
-    
-        except:
-    
-            pass
-    print("URL:", url)
-    print("STATUS:", response.status_code)
-    print("HTML LENGTH:", len(response.text))
-return results
+        return []
