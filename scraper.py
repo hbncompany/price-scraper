@@ -15,23 +15,23 @@ query = f"{search_text} {group_name}"
 
 all_products = []
 
-try:
+# try:
 
-    products = scrape_asaxiy(
-        query,
-        group_id
-    )
+#     products = scrape_asaxiy(
+#         query,
+#         group_id
+#     )
 
-    all_products.extend(
-        products
-    )
+#     all_products.extend(
+#         products
+#     )
 
-except Exception as e:
+# except Exception as e:
 
-    print(
-        "ASAXIY ERROR:",
-        e
-    )
+#     print(
+#         "ASAXIY ERROR:",
+#         e
+#     )
 
 try:
 
