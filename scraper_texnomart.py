@@ -1,25 +1,26 @@
 import requests
 
+
 def scrape_texnomart(
-search_text,
-group_id
+    search_text,
+    group_id
 ):
 
     results = []
-    
+
     try:
-    
+
         url = (
             "https://gw.texnomart.uz/"
             "api/common/v1/search/result"
         )
-    
+
         params = {
             "q": search_text,
             "page": 1,
             "limit": 20
         }
-    
+
         headers = {
             "User-Agent": (
                 "Mozilla/5.0 "
@@ -29,61 +30,71 @@ group_id
                 "Chrome/136.0.0.0 Safari/537.36"
             )
         }
-    
+
         response = requests.get(
             url,
             params=params,
             headers=headers,
             timeout=30
         )
-    
+
+        print(
+            "TEXNOMART STATUS:",
+            response.status_code
+        )
+
         data = response.json()
-    
+
         if not data.get("success"):
             return []
-    
+
         products = (
             data["data"]
             .get("products", [])
         )
-    
+
         print(
             "TEXNOMART PRODUCTS:",
             len(products)
         )
-    
+
         for p in products:
-    
+
             try:
-    
+
                 product_url = (
-                    "https://texnomart.uz/"
-                    f"product/{p['id']}"
+                    "https://texnomart.uz/product/"
+                    + str(
+                        p.get(
+                            "id",
+                            ""
+                        )
+                    )
                 )
-    
+
                 results.append({
-    
+
                     "group_id":
                     group_id,
-    
+
                     "store_name":
                     "Texnomart",
-    
+
                     "product_name":
                     p.get(
                         "name",
                         ""
                     ),
-    
+
                     "image_url":
                     p.get(
                         "image",
                         ""
                     ),
-    
+
                     "product_url":
                     product_url,
-    
+
                     "price":
                     int(
                         p.get(
@@ -91,28 +102,28 @@ group_id
                             0
                         )
                     )
-    
+
                 })
-    
+
             except Exception as e:
-    
+
                 print(
-                    "PRODUCT ERROR:",
+                    "TEXNOMART PRODUCT ERROR:",
                     e
                 )
-    
+
         print(
-            "FOUND PRODUCTS:",
+            "TEXNOMART FOUND:",
             len(results)
         )
-    
+
         return results
-    
+
     except Exception as e:
-    
+
         print(
             "TEXNOMART ERROR:",
             e
         )
-    
+
         return []
