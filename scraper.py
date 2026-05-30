@@ -11,11 +11,11 @@ all_products = []
 SEARCHES = [
     {
         "group_id": 1,
-        "keyword": "bojler"
+        "keyword": "konditsioner"
     },
     {
         "group_id": 2,
-        "keyword": "konditsioner"
+        "keyword": "artel"
     },
     {
         "group_id": 3,
