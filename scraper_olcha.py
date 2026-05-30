@@ -6,6 +6,7 @@ from urllib.parse import quote
 
 def scrape_olcha(search_text, group_id):
     results = []
+
     
     try:
     
