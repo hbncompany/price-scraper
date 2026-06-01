@@ -34,6 +34,8 @@ def scrape_asaxiy(
             headers=headers,
             timeout=30
         )
+        print('RESP:::::::')
+        print(response)
 
         print(
             "STATUS:",
