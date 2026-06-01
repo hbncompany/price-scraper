@@ -10,7 +10,7 @@ group_name = sys.argv[2]
 
 search_text = sys.argv[3]
 
-query = f"{group_name} {search_text}"
+query = f"{group_name} + {search_text}"
 
 print("QUERY:", query)
 
