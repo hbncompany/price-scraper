@@ -15,7 +15,7 @@ search_text = sys.argv[3]
 # search_text = 'Iphone 16'
 
 query = f"{group_name} {search_text}"
-query1 = f"{search_text}"
+# query1 = f"{search_text}"
 
 print("QUERY:", query)
 
