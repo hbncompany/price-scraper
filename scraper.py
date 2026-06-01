@@ -4,15 +4,15 @@ import sys
 from scraper_asaxiy import scrape_asaxiy
 from scraper_texnomart import scrape_texnomart
 
-# group_id = int(sys.argv[1])
+group_id = int(sys.argv[1])
 
-group_id = '5'
+# group_id = '5'
 
-# group_name = sys.argv[2]
-group_name = 'Smartfon'
+group_name = sys.argv[2]
+# group_name = 'Smartfon'
 
-# search_text = sys.argv[3]
-search_text = 'Iphone 16'
+search_text = sys.argv[3]
+# search_text = 'Iphone 16'
 
 query = f"{group_name} + {search_text}"
 
