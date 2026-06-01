@@ -1,354 +1,354 @@
 [
   {
-    "group_id": 2,
+    "group_id": "5",
     "store_name": "Asaxiy",
-    "product_name": "Кондиционер Artel Iceberg 12 Inverter",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/64cb7350aa7de.jpg.webp",
-    "product_url": "https://asaxiy.uz/ru/product/kondicioner-artel-iceberg-12-inverter",
-    "price": 3919000
+    "product_name": "Смартфон Apple iPhone 16 Pro 256GB (1 SIM + 1 eSim) Black Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eea94f00d21.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-256gb-chernyy-titan",
+    "price": 17839000
   },
   {
-    "group_id": 2,
+    "group_id": "5",
     "store_name": "Asaxiy",
-    "product_name": "Кондиционер Artel Everest 12 Inverter",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/62429cd250675.jpg.webp",
-    "product_url": "https://asaxiy.uz/ru/product/kondicioner-artel-everest-12-inverter",
-    "price": 4159000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Кондиционер Artel Marvarid 12 Inverter",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/669b3d8d20459.jpg.webp",
-    "product_url": "https://asaxiy.uz/ru/product/kondicioner-artel-marvarid-12-inverter",
-    "price": 3599000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Кондиционер Artel Shahrisabz 12 Inverter (экономит 30% электроэнергии)",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/65f12d303982c.jpg",
-    "product_url": "https://asaxiy.uz/ru/product/kondicioner-artel-shahrisabz-12-inverter-ekonomit-30-elektroenergii",
-    "price": 4279000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Пылесос Artel ART VCB 0120 Серый. ХИТ ПРОДАЖ!",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/5e15bba550826.PNG",
-    "product_url": "https://asaxiy.uz/ru/product/pylesos-artel-art-vcb-0120-gray",
-    "price": 1159000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Соковыжималка Artel ART-JM- 61-1A",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/63d4bb647d899.png",
-    "product_url": "https://asaxiy.uz/ru/product/sokovyzhimalka-artel-jm-611",
-    "price": 999000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Телевизор Artel A55PUCH010 4K UHD Android Smart TV",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/692434510f27e.jpg.webp",
-    "product_url": "https://asaxiy.uz/ru/product/televizor-artel-a55puch010-4k-uhd-smart-tv",
-    "price": 4579000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Пылесос Artel VCC 0220 Серый",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/65e81e0e600cc.jpg",
-    "product_url": "https://asaxiy.uz/ru/product/pylesos-artel-vcc-0220-gray-blue-sky-black",
-    "price": 1429000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Телевизор Artel UA32H3200 Android Smart TV",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/63c8e7a9468bd.jpg",
-    "product_url": "https://asaxiy.uz/ru/product/televizor-artel-ua32h3200-android",
-    "price": 1719000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Чайник электрический Artel KE-8815",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/63d3b84182adb.png",
-    "product_url": "https://asaxiy.uz/ru/product/chajnik-elektricheskij-artel-ke-8815",
-    "price": 279000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Холодильник Artel HD-345RND Eco Стальной, 265 л!",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/63d21d42c99f3.jpg.webp",
-    "product_url": "https://asaxiy.uz/ru/product/holodilnik-artel-hd-345rnd-eco-stalnoy",
-    "price": 3799000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Стиральная машина полуавтомат Artel TG90P 9 Кг Nature 02",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/63ca373bd675d.png.webp",
-    "product_url": "https://asaxiy.uz/ru/product/stiralnaya-mashina-poluavtomat-artel-tg90p-9-kg-nature-02",
-    "price": 1789000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Кондиционер Artel Iceberg 09 Inverter",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/661f6f6647c9a.jpg.webp",
-    "product_url": "https://asaxiy.uz/ru/product/kondicioner-artel-iceberg-09-inverter",
-    "price": 3705000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Стиральная машина полуавтомат Artel TC60 6 Кг",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/628344dc0c52c.jpg",
-    "product_url": "https://asaxiy.uz/ru/product/stiralnaya-mashina-poluavtomat-artel-tc60-6-kg",
-    "price": 1469000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Телевизор Artel A43PFB100 Full HD Smart TV",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/6942c4dff2d01.webp",
-    "product_url": "https://asaxiy.uz/ru/product/smart-televizor-artel-tv-a43pfb100-fullhd",
-    "price": 2709000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Холодильник Artel HD-345RND Eco Серый металл",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/69258dda3e3b4.jpg.webp",
-    "product_url": "https://asaxiy.uz/ru/product/holodilnik-artel-hd-345rnd-eco-seryy-metall",
-    "price": 4019000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Телевизор Artel A32PHCH010 Smart TV",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/68e606f99efcd.jpg.webp",
-    "product_url": "https://asaxiy.uz/ru/product/televizor-artel-a32phch010-smart-tv",
-    "price": 1759000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Чайник электрический Artel ART-KE-231",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66c6c736af23b.png.webp",
-    "product_url": "https://asaxiy.uz/ru/product/chaynik-elektricheskiy-artel-art-ke-231",
-    "price": 179000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Блендер Artel ART-BL-S62",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/63d4f46b9543e.png.webp",
-    "product_url": "https://asaxiy.uz/ru/product/blender-artel-bl-s62",
-    "price": 749000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Мясорубка Artel MG-4130",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/63d4c725635bd.png",
-    "product_url": "https://asaxiy.uz/ru/product/myasorubka-artel-mg-4130",
-    "price": 779000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Соковыжималка Artel ART-JM-61-4A",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/63d4bd1a1b23a.png",
-    "product_url": "https://asaxiy.uz/ru/product/sokovyzhimalka-artel-jm-614",
-    "price": 1199000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Пылесос Artel ART VCB 0120 Белый",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/65e819deea733.jpg",
-    "product_url": "https://asaxiy.uz/ru/product/pylesos-artel-art-vcb-0120-white",
-    "price": 1159000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Телевизор Artel A43PFCH010 Smart TV",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/68e0d0cf95003.jpg.webp",
-    "product_url": "https://asaxiy.uz/ru/product/televizor-artel-a43pfch010-google-tv",
-    "price": 2709000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Asaxiy",
-    "product_name": "Кондиционер Artel Shahrisabz 24 Inverter (экономит 30% электроэнергии)",
-    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/6279febd69f6d.png.webp",
-    "product_url": "https://asaxiy.uz/ru/product/kondicioner-artel-shahrisabz-24-inverter-ekonomit-30-elektroenergii",
-    "price": 8019000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Artel 12HS S SIR1W12BE Konditsioneri",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1008/100856/205120/7651f23e-147a-429e-9f43-7c4d035b13d9.webp",
-    "product_url": "https://texnomart.uz/product/100856",
-    "price": 4699000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "LG D12TT Konditsioneri",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3558/355824/205131/19472383-17b7-4bc1-a2c0-059a0c9747dd.webp",
-    "product_url": "https://texnomart.uz/product/355824",
-    "price": 6499000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Samsung Galaxy S25+ 12/256GB Navy",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3581/358179/208175/2f48ad0e-05b0-4db2-b7c7-003368641ffa.webp",
-    "product_url": "https://texnomart.uz/product/358179",
-    "price": 10244000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Samsung Galaxy S25+ 12/256GB Silver Shadow",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3581/358180/208169/9abefb07-3595-4e21-9720-12ab439f0c2c.webp",
-    "product_url": "https://texnomart.uz/product/358180",
-    "price": 10244000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Samsung Galaxy S25 Ultra 12/512GB Titanium Gray",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3581/358175/208210/baebb227-d7b2-4a8c-998f-f911d88abd4a.webp",
-    "product_url": "https://texnomart.uz/product/358175",
-    "price": 14513000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "ARG CSH 12OB Konditsioneri",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3557/355738/188991/796d9647-78b7-433a-953b-027968632453.webp",
-    "product_url": "https://texnomart.uz/product/355738",
-    "price": 3299000
-  },
-  {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Midea XTG-12 Konditsioneri",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3586/358659/210875/c9bfed90-e956-4b7f-bb90-beddbaff1f18.webp",
-    "product_url": "https://texnomart.uz/product/358659",
+    "product_name": "Смартфон Apple iPhone 16 128GB (1 SIM + 1 eSIm) Black",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66f6999ee2782.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-apple-iphone-16-128gb-black",
     "price": 9999000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Keramik himoya oynasi Iphone 12 MINI ",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/884/88469/205990/629e0c98-ae2e-4e8e-adf2-62263054577b.webp",
-    "product_url": "https://texnomart.uz/product/88469",
-    "price": 4000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 128GB White (Sim + Esim)",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66f6994586088.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-apple-iphone-16-128gb-white-s-2-zaregistrirovannym-imei",
+    "price": 10999000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Iphone 12 PRO keramik himoya oynasi",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/884/88470/205991/18ca3d51-9c37-45b3-bdaf-22245c9dbcec.webp",
-    "product_url": "https://texnomart.uz/product/88470",
-    "price": 4000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 128GB (1 SIM + 1 eSim) Teal",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66f6986d0243a.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-apple-iphone-16-128gb-berezovyy",
+    "price": 9979000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Megogo TV va Kino 12 oylik obuna",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1055/105523/206618/9cb6a687-15d5-438a-a911-312743009d2e.webp",
-    "product_url": "https://texnomart.uz/product/105523",
-    "price": 409000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон iPhone 14 128GB Midnight. Новый (1 Sim + 1 eSim)",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/632714dadc8e9.png.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-14-128gb-midnight",
+    "price": 8999000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Artel A32KH5000 Televizori",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1025/102552/180235/8c92c805-bb0c-481e-978f-418972a2f0da.jpg",
-    "product_url": "https://texnomart.uz/product/102552",
-    "price": 1750000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон iPhone 13 128GB Midnight. Новый.",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/61580b359d751.jpg.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-13-128gb-midnight",
+    "price": 6999000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Artel A43KF5000 Televizori",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1043/104307/204944/57678351-5d11-4496-9a3c-8516fbacac7a.webp",
-    "product_url": "https://texnomart.uz/product/104307",
-    "price": 3178000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон iPhone 16 Pro Max 256GB  2 SIM (Sim+eSim) Desert Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eeb4d440ffe.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-esim-256gb-desert-titanium-s-2-zaregistrirovannym-imei",
+    "price": 18129000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Allplay Tv va Kino 12 oylik obuna (FULL)",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1053/105373/206613/3287dd33-1c86-4ee0-88f6-722cf97396ee.webp",
-    "product_url": "https://texnomart.uz/product/105373",
-    "price": 294000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro Max 512GB  (1 Sim + 1 eSim) Desert Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eeb4d440ffe.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-512gb-desert-titanium",
+    "price": 20849000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "LG B12TS Konditsioneri",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/805/80569/205129/200ea42a-8f7b-451a-ae4f-a9ed002b4388.webp",
-    "product_url": "https://texnomart.uz/product/80569",
-    "price": 11490000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro Max eSim 256GB Desert Titanium (1 eSIM)",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eeb4d440ffe.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-e-sim-256gb-desert-titanium",
+    "price": 16639000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Go`sht maydalagich Artel MG295",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/952/95210/204755/119a78e8-2b27-488a-88cb-b04b2ba2afc8.webp",
-    "product_url": "https://texnomart.uz/product/95210",
-    "price": 1269000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон iPhone 16 Pro Max 256GB Desert Titanium (2 SIM)",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eeb4d440ffe.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-256gb-desert-titanium-s-2-zaregistrirovannym-imei",
+    "price": 17469000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Go`sht maydalagich Artel MG1083",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1046/104662/192612/c727156b-e462-4653-a162-9f50f4e69d59.webp",
-    "product_url": "https://texnomart.uz/product/104662",
-    "price": 896000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro Max 256GB (1 SIM + 1 eSim) Desert Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eeb4d440ffe.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-256gb-desert-titanium",
+    "price": 18059000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Blender Artel BL201",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/809/80995/203968/53ed6307-8a15-4887-bbfc-a1f2946e864e.webp",
-    "product_url": "https://texnomart.uz/product/80995",
-    "price": 607000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro Max 1TB (1 SIM + 1 eSim) Desert Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eeb4d440ffe.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-1tb-desert-titanium",
+    "price": 24409000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Chiroq Lovely Stream  12",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1011/101105/206473/19584459-94bb-40de-ac64-d86f4fb79c2b.webp",
-    "product_url": "https://texnomart.uz/product/101105",
-    "price": 203000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон iPhone 16 Pro Max eSim 256GB Black Titanium (2 SIM)",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eea94f00d21.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-esim-256gb-chernyy-titan-s-2-zaregistrirovannym-imei",
+    "price": 15049000
   },
   {
-    "group_id": 2,
-    "store_name": "Texnomart",
-    "product_name": "Artel HD345RND Eco Oq Muzlatgichi",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1054/105431/205170/ddc89f72-5246-4d50-ace2-765771ff9a60.webp",
-    "product_url": "https://texnomart.uz/product/105431",
-    "price": 5316000
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro Max 512GB (1 SIM + 1 eSim) Black Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eea94f00d21.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-512gb-chernyy-titan",
+    "price": 19879000
   },
   {
-    "group_id": 2,
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro 128GB (1 SIM + 1 eSim) Natural Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eead9c4dde1.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-128gb-seryy-titan",
+    "price": 13599000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro eSim 256GB Desert Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eead5803ec7.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-e-sim-256gb-desert-titanium",
+    "price": 15639000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон iPhone 16 Pro 128GB Titanium (2 SIM)",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eead9c4dde1.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-128gb-titanium-s-2-zaregistrirovannym-imei",
+    "price": 13599000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro Max 256GB (1 SIM + 1 eSim) Black Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eea94f00d21.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-256gb-chernyy-titan",
+    "price": 17669000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro Max eSim 256GB Black Titanium (1 eSim)",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eea94f00d21.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-e-sim-256gb-chernyy-titan",
+    "price": 17349000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro Max 256GB (1 SIM + 1 eSim) Natural Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eeb5595a131.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-256gb-seryy-titan",
+    "price": 17669000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro eSim 128GB Desert Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eead5803ec7.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-e-sim-128gb-desert-titanium",
+    "price": 13089000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон Apple iPhone 16 Pro 128GB (1 SIM + 1 eSim) Desert Titanium",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eead5803ec7.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-128gb-desert-titanium",
+    "price": 13859000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон iPhone 16 Pro Max 256GB Natural Titanium (2 SIM)",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eeb5595a131.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-256gb-titanovyy-s-2-zaregistrirovannym-imei",
+    "price": 19449000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Asaxiy",
+    "product_name": "Смартфон iPhone 16 Pro Max 512GB Desert Titanium (2 SIM)",
+    "image_url": "https://cdn.asaxiy.uz/asaxiy-content/product/main_image/desktop/66eeb4d440ffe.webp",
+    "product_url": "https://asaxiy.uz/ru/product/smartfon-iphone-16-pro-max-512gb-desert-titanium-s-2-zaregistrirovannym-imei",
+    "price": 18909000
+  },
+  {
+    "group_id": "5",
     "store_name": "Texnomart",
-    "product_name": "Pech Artel Classico i6701 Inox",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/955/95559/206382/8cf9dfdd-24cf-4727-9515-b8efd95b385d.webp",
-    "product_url": "https://texnomart.uz/product/95559",
-    "price": 2168900
+    "product_name": "Apple iPhone 16 Pro Max 256GB Desert Titanium",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3579/357931/211102/51047743-c527-4c93-bf70-c450eef846e9.webp",
+    "product_url": "https://texnomart.uz/product/357931",
+    "price": 18343000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone 16 Pro Max 256GB Natural Titanium",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3579/357933/211100/00649a7a-a16d-44d5-8cd5-6d5d2579e2e0.webp",
+    "product_url": "https://texnomart.uz/product/357933",
+    "price": 17809000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone 16 Pro Max 256GB Black Titanium",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3579/357930/211097/e46d327d-f803-4e8f-ae14-77242dca9c63.webp",
+    "product_url": "https://texnomart.uz/product/357930",
+    "price": 17809000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Ryukzak 2E 16 Slant BPN9086GB Klurang-Qora",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1048/104885/206760/feaa76f4-b0d3-4779-a715-8e06ba39b207.webp",
+    "product_url": "https://texnomart.uz/product/104885",
+    "price": 439000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple MacBook Pro 16 M1 Pro MK183RU/A Noutbuki",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/1008/100835/178110/f1b7d266-6ab6-4d7d-afc5-4c2ae71a931b.jpg",
+    "product_url": "https://texnomart.uz/product/100835",
+    "price": 43519000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone 17 8/256GB Sage",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3590/359039/212640/559e809e-5b8f-40d7-80ff-72cf1069e94b.webp",
+    "product_url": "https://texnomart.uz/product/359039",
+    "price": 15053000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone 17 8/256GB Lavender",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3590/359038/212633/961d8e7f-01f1-475d-ad14-0b9c1293884e.webp",
+    "product_url": "https://texnomart.uz/product/359038",
+    "price": 15053000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone 17 8/256GB Mist Blue",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3590/359037/212630/f7fef8d9-7027-4ea8-95b5-63f44b1ea805.webp",
+    "product_url": "https://texnomart.uz/product/359037",
+    "price": 15053000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone Air 12/256GB Cloud White",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358991/212365/c7fe2799-ab39-4d89-9acc-40f39e276f78.webp",
+    "product_url": "https://texnomart.uz/product/358991",
+    "price": 14999000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone Air 12/256GB Sky Blue",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358989/212380/d904897c-0e2b-4f58-979f-3a56be831094.webp",
+    "product_url": "https://texnomart.uz/product/358989",
+    "price": 15220000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone Air 12/256GB Space Black",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358992/212384/97a79a5a-65ea-4350-8b0f-de18d9636c20.webp",
+    "product_url": "https://texnomart.uz/product/358992",
+    "price": 14999000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone Air 12/256GB Light Gold",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358990/212367/cb8a643f-6c15-4548-a336-88fb7f473a81.webp",
+    "product_url": "https://texnomart.uz/product/358990",
+    "price": 14999000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Realme 16 Pro 8/256GB Grey",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3597/359714/215226/1825182b-290e-4330-a8e4-e96af3cc2c80.webp",
+    "product_url": "https://texnomart.uz/product/359714",
+    "price": 7999000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Huawei Mate X7 16/512GB Black",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3594/359438/214092/dfc987a4-2fb8-4791-9079-1d776d856137.webp",
+    "product_url": "https://texnomart.uz/product/359438",
+    "price": 21999000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Realme 16 Pro 8/256GB Purple",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3597/359715/215233/1c0c8ca7-048e-4d8f-a4e7-241ab3428dbb.webp",
+    "product_url": "https://texnomart.uz/product/359715",
+    "price": 7999000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Remax PD B15 iphone USB kabeli ",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/831/83173/161029/cdc7a5fc-9931-4d7b-9af5-091b9029bd68.jpg",
+    "product_url": "https://texnomart.uz/product/83173",
+    "price": 13000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone 17 Pro Max 12/256GB Silver",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358988/212396/731d55ea-d64c-4149-8f98-ef3d8c43b9ac.webp",
+    "product_url": "https://texnomart.uz/product/358988",
+    "price": 19399000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone 17 Pro 12/256GB Silver",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358985/212376/923c4a1e-f56c-4873-9514-aec685284309.webp",
+    "product_url": "https://texnomart.uz/product/358985",
+    "price": 18860000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Apple iPhone 17 Pro Max 12/256GB Deep Blue",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358987/212391/df695e6c-6b1c-4f16-822a-19bf9ba038f4.webp",
+    "product_url": "https://texnomart.uz/product/358987",
+    "price": 19399000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Huawei Mate X7 16/512GB Nebula Red",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3594/359433/214084/7f0d43d7-1892-4a3d-8139-bbd93882c2c9.webp",
+    "product_url": "https://texnomart.uz/product/359433",
+    "price": 21999000
   }
 ]
