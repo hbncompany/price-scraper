@@ -3,6 +3,7 @@ import sys
 
 from scraper_asaxiy import scrape_asaxiy
 from scraper_texnomart import scrape_texnomart
+print("ARGV:", sys.argv)
 
 group_id = int(sys.argv[1])
 
