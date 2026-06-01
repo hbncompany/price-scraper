@@ -234,17 +234,17 @@
   {
     "group_id": "5",
     "store_name": "Texnomart",
-    "product_name": "Apple iPhone 17 8/256GB Sage",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3590/359039/212640/559e809e-5b8f-40d7-80ff-72cf1069e94b.webp",
-    "product_url": "https://texnomart.uz/product/359039",
+    "product_name": "Apple iPhone 17 8/256GB Lavender",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3590/359038/212633/961d8e7f-01f1-475d-ad14-0b9c1293884e.webp",
+    "product_url": "https://texnomart.uz/product/359038",
     "price": 15053000
   },
   {
     "group_id": "5",
     "store_name": "Texnomart",
-    "product_name": "Apple iPhone 17 8/256GB Lavender",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3590/359038/212633/961d8e7f-01f1-475d-ad14-0b9c1293884e.webp",
-    "product_url": "https://texnomart.uz/product/359038",
+    "product_name": "Apple iPhone 17 8/256GB Sage",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3590/359039/212640/559e809e-5b8f-40d7-80ff-72cf1069e94b.webp",
+    "product_url": "https://texnomart.uz/product/359039",
     "price": 15053000
   },
   {
@@ -266,14 +266,6 @@
   {
     "group_id": "5",
     "store_name": "Texnomart",
-    "product_name": "Apple iPhone Air 12/256GB Sky Blue",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358989/212380/d904897c-0e2b-4f58-979f-3a56be831094.webp",
-    "product_url": "https://texnomart.uz/product/358989",
-    "price": 15220000
-  },
-  {
-    "group_id": "5",
-    "store_name": "Texnomart",
     "product_name": "Apple iPhone Air 12/256GB Space Black",
     "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358992/212384/97a79a5a-65ea-4350-8b0f-de18d9636c20.webp",
     "product_url": "https://texnomart.uz/product/358992",
@@ -290,9 +282,25 @@
   {
     "group_id": "5",
     "store_name": "Texnomart",
+    "product_name": "Apple iPhone Air 12/256GB Sky Blue",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3589/358989/212380/d904897c-0e2b-4f58-979f-3a56be831094.webp",
+    "product_url": "https://texnomart.uz/product/358989",
+    "price": 15220000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
     "product_name": "Realme 16 Pro 8/256GB Grey",
     "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3597/359714/215226/1825182b-290e-4330-a8e4-e96af3cc2c80.webp",
     "product_url": "https://texnomart.uz/product/359714",
+    "price": 7999000
+  },
+  {
+    "group_id": "5",
+    "store_name": "Texnomart",
+    "product_name": "Realme 16 Pro 8/256GB Purple",
+    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3597/359715/215233/1c0c8ca7-048e-4d8f-a4e7-241ab3428dbb.webp",
+    "product_url": "https://texnomart.uz/product/359715",
     "price": 7999000
   },
   {
@@ -302,14 +310,6 @@
     "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3594/359438/214092/dfc987a4-2fb8-4791-9079-1d776d856137.webp",
     "product_url": "https://texnomart.uz/product/359438",
     "price": 21999000
-  },
-  {
-    "group_id": "5",
-    "store_name": "Texnomart",
-    "product_name": "Realme 16 Pro 8/256GB Purple",
-    "image_url": "https://mini-io-api.texnomart.uz/catalog/product/3597/359715/215233/1c0c8ca7-048e-4d8f-a4e7-241ab3428dbb.webp",
-    "product_url": "https://texnomart.uz/product/359715",
-    "price": 7999000
   },
   {
     "group_id": "5",
