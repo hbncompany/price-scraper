@@ -14,7 +14,8 @@ group_name = sys.argv[2]
 search_text = sys.argv[3]
 # search_text = 'Iphone 16'
 
-query = f"{group_name} + {search_text}"
+query = f"{group_name} {search_text}"
+query1 = f"{search_text}"
 
 print("QUERY:", query)
 
@@ -41,7 +42,7 @@ except Exception as e:
 try:
 
     products = scrape_texnomart(
-        query,
+        query1,
         group_id
     )
 
