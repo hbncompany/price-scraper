@@ -38,7 +38,7 @@ def scrape_texnomart(
             timeout=30
         )
         print('RESP:::::::')
-        print(response)
+        print(response.url)
         print(
             "TEXNOMART STATUS:",
             response.status_code
